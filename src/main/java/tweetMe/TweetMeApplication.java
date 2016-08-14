@@ -1,0 +1,12 @@
+package tweetMe;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TweetMeApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TweetMeApplication.class, args);
+	}
+}
